@@ -1,4 +1,4 @@
-# Video Player App
+# Troplay
 
 ## Description
 
@@ -56,18 +56,12 @@ lib/
 3. Navigate to the project directory in your terminal.
 4. Run `flutter pub get` to install dependencies.
 5. Ensure you have the necessary permissions set up for file access and network operations.
-6. For Windows users, add the following include statement at the top of the `windows/runner/main.cpp` file:
-   ```cpp
-   #include <media_kit_libs_windows_video/media_kit_libs_windows_video_plugin_c_api.h>
-   ```
-7. Run `flutter run` to launch the app on your desktop platform.
+
+6. Run `flutter run` to launch the app on your desktop platform.
 
 ## Notes
 
-- This app is designed for desktop platforms and may require additional setup for certain functionalities, especially related to file system access and torrent handling.
-- Ensure all necessary permissions are granted for the app to function correctly, particularly for file system access and network operations.
-- The torrent functionality may require additional setup and dependencies not fully detailed in the provided code snippets.
-- Windows users must include the specified header file in `windows/runner/main.cpp` to ensure proper functionality of the media_kit library.
+- This app is designed for Windows
 
 ## Contributing
 
